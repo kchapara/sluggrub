@@ -1,7 +1,7 @@
 {
   "name": "ucsc-dining-frontend",
   "version": "1.0.0",
-  "homepage": "https://ucsc-dining-cse115a.github.io/project",
+  "homepage": "https://kchapara.github.io/sluggrub/",
   "private": true,
   "dependencies": {
     "@supabase/supabase-js": "^2.81.1",
