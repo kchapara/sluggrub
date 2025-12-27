@@ -141,7 +141,7 @@ function TodayHours({ diningHallName, dateOverride }) {
         setError(null);
 
         // Load open_times.json
-        const res = await fetch("/open_times.json");
+        const res = await fetch(`${process.env.PUBLIC_URL}/open_times.json`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
 
